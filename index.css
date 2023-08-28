@@ -35,10 +35,11 @@ h1{
 
 }
 
-@media only screen and (min-width: 600px)
-{ nav { display: flex;
-    padding: 0;
-    margin: 0;
+@media only screen and (max-width: 767px)
+{ nav { flex-wrap: wrap;
+    
+    
+    
     
 
 }
