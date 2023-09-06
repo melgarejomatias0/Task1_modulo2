@@ -1,194 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <title>Home</title>
+
 </head>
 
 <body>
-    <header>
-        <div class="container">
-          <nav id="nav" class="navbar" data-bs-theme="dark" mg-10>
-              <img class="border-body" id="logo" src="./assets/Logo_Amazing_Events.png" alt="logo_del_equipo" width="50" height="50" max-width="100%">
-              <a class="botones btn btn-secondary" href="./index.html">Home</a>
-              <a class="botones btn btn-secondary" href="./upcoming_event.html">UpComing</a>
-              <a class="botones btn btn-secondary" href="./past_events.html">Past Events</a>
-              <a class="botones btn btn-secondary" href="./contact.html">Contact</a>
-              <a class="botones btn btn-secondary" href="./stats.html">Stats</a>
-              <a class="botones btn btn-secondary" href="./details.html">Details</a>
-          </nav>
-        </div>
-        <div class="container">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000" >
-                        <img src="./assets/optional_banner_1.jpg" class="d-block w-100 carousel.img"  alt="cine" >
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./assets/optional_banner_2.jpg" class="d-block w-100 carousel.img"  alt="musica">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/optional_banner_3.jpg" class="d-block w-100 carousel.img" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-             </div>
-        </div>
-        <h1>Amazing Events</h1>
-
-
-        <div class="container">
-              <nav class="navbar navbar-light bg-light max-width 100%">
-                <div class="container-fluid">
-                  <div class=" row form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Cinema">
-                    <label class="form-check-label" for="inlineCheckbox1">Cinena</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Maraton">
-                    <label class="form-check-label" for="inlineCheckbox2">Maraton</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Museum">
-                    <label class="form-check-label" for="inlineCheckbox3">Museum</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Music">
-                    <label class="form-check-label" for="inlineCheckbox4">Music</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="Food">
-                    <label class="form-check-label" for="inlineCheckbox5">Food</label>
-                  </div>
-
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                  </form>
-                </div>
-              </nav>
-        </div>
-
-    </header>  
-
-
-
- <main class="container py-4 mg-5">
-    <h2>Categorias</h2>
-    <div class="row justify-content-center aling-items-center">
-        <div class="card" style="width: 14rem;">
-            <img src="assets/marathon.jpg" class="card-img-top" alt="maraton">
-            <div class="card-body">
-              <h5 class="card-title">Maraton</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 14rem;">
-            <img src="assets/Cine7.jpg" class="card-img-top" alt="cine">
-            <div class="card-body">
-              <h5 class="card-title">Cinema</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-
-          <div class="card"  style="width: 14rem;">
-            <img src="assets/Salida_al_museo5.jpg" class="card-img-top" alt="museo">
-            <div class="card-body">
-              <h5 class="card-title">Museo</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card" style="width: 14rem;">
-            <img src="assets/Concierto_de_musica1.jpg" class="card-img-top" alt="concierto">
-            <div class="card-body">
-              <h5 class="card-title">Musica</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-
-          
-    </div>
-</main>
-
-  
-<footer class=" d-flex justify-content-center aling-items-center py-3 ">
-    <div class="container-footer"></div>
-    <img src="assets/instagram.png" alt="logo_instagram">
-    <img src="assets/facebook.png" alt="logo_facebook">
-    <img src="assets/whatsapp.png" alt="logo_whatsapp">
-</footer>
+  <header>
+    <div class="container">
+      <nav id="nav" class="navbar" col-md-767 data-bs-theme="dark"  mg-10>
+        <img class="border-body" id="logo" src="./assets/Logo_Amazing_Events.png" alt="logo_del_equipo" width="50" height="50" max-width="100%">
+        <a class="botones btn btn-secondary" href="./index.html">Home</a>
+        <a class="botones btn btn-secondary" href="./upcoming_event.html">UpComing</a>
+        <a class="botones btn btn-secondary" href="./past_events.html">Past Events</a>
+        <a class="botones btn btn-secondary" href="./contact.html">Contact</a>
+        <a class="botones btn btn-secondary" href="./stats.html">Stats</a>
+        <a class="botones btn btn-secondary" href="./details.html">Details</a>
+      </nav>
 
       
+      <div class="container">
+        <div id="carouselExampleDark" class="carousel  carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
 
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000" >
+              <img src="./assets/optional_banner_1.jpg" class="d-block w-100 carousel.img"  alt="cine">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Food</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./assets/optional_banner_2.jpg" class="d-block w-100 carousel.img"  alt="musica">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cinema</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/optional_banner_3.jpg" class="d-block w-100 carousel.img" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+              
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <h1>Amazing Events</h1>
+      <!-- checkbox -->
+      <div class="container">
+          <div id="categories" class="row gap-3 p-3 justify-content-center">
+            
+            <!--Aca van los checkbox-->
+            
+          </div>
+          <div>
+            <form class="d-flex" role="search">
+                <input id="buscador" class="form-control me-2" type="text" placeholder="Category">
+                  <button class="btn btn-outline-success" type="submit">Search</button> 
+            </form>
+          </div>
+      </div>
+
+    </div>
+  </header>  
+
+  <main class="container py-4 mg-0">
+    <h2>Categorias</h2>
+    <div class="container-fluid">
+      <div id="contenedor" class="row">
+        
+        <!-- CARDS-->
+        
+      </div>
+    </div>
+  </main>
+
+  
+  <footer class=" d-flex justify-content-center aling-items-center  py-3 ">
+      <div class="container-footer"></div>
+      <img src="assets/instagram.png" alt="logo_instagram">
+      <img src="assets/facebook.png" alt="logo_facebook">
+      <img src="assets/whatsapp.png" alt="logo_whatsapp">
+  </footer>
+
+  
+  <script src="./assets/js/data.js"></script>
+  <script src="./assets/js/home.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
 </body>
 </html>
